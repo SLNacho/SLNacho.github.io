@@ -1,15 +1,28 @@
 <html>
 <head>
 	<title>Calculadora de Indice de Masa Corporal</title>
+	<link rel="stylesheet" href="estilos.css"/>
 </head>
 <body>
-<h1>Calculadora de IMC: Indice de Masa Corporal</h1>
+<center><h1>Calculadora de IMC: Indice de Masa Corporal</h1></center>
 <!-- FORMULARIO HTML -->
-<p>Ingrese peso (kg): <input type="text" id="kg"></p>
-<p>Ingrese Altura (m): <input type="text" id="m"></p>
-<button id="calc">Calcular</button>
+
+<div class="container">
+<div class="form__group field">
+	<input type="input" class="form__field" placeholder="Peso" name="peso" id='kg' required />
+	<label for="name" class="form__label">Peso</label>
+  </div>
+  <div class="form__group field">
+	<input type="input" class="form__field" placeholder="Altura" name="altura" id='m' required />
+	<label for="name" class="form__label">Altura</label>
+  </div>
+  
+
+<a class="button" id="calc">Calcular</a>
 <p>IMC: <span id="imc"></span></p>
 <p>Lectura: <span id="lectura"></span></p>
+</div>
+
 
 <!-- SCRIPT PARA CALCULAR IMC -->
 <script type="text/javascript">
