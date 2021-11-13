@@ -129,8 +129,8 @@ body {
   }
 
   button.accordion {
-    background-color: #01634a;
-    color: #99DDCC;
+    background-color: #99DDCC;
+    color: #01634a;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor: pointer;
     padding: 18px;
@@ -149,7 +149,7 @@ button.accordion.active, button.accordion:hover {
 button.accordion:after {
     content: '\02795';
     font-size: 13px;
-    color: rgb(137, 2, 190);
+    color: #99DDCC;
     float: right;
     margin-left: 5px;
 }
