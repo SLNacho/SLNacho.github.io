@@ -9,6 +9,7 @@ body {
     width: 50%;
   }
   
+/* color input desactivado */
   .form__field {
     font-family: inherit;
     width: 100%;
@@ -30,15 +31,17 @@ body {
     top: 20px;
   }
   
+/* color y tamaño letra desactivado */
   .form__label {
     position: absolute;
     top: 0;
     display: block;
     transition: 0.2s;
     font-size: 1rem;
-    color: #000000;
+    color: #969696;
   }
   
+  /* color input activo, con gradiente */
   .form__field:focus {
     padding-bottom: 6px;
     font-weight: 700;
@@ -46,6 +49,8 @@ body {
     border-image: linear-gradient(to right, #FF5DA2, #690072);
     border-image-slice: 1;
   }
+
+  /* fuente input activado */
   .form__field:focus ~ .form__label {
     position: absolute;
     top: 0;
@@ -60,6 +65,7 @@ body {
     box-shadow: none;
   }
 
+  /* boton color, fuente */
   .button{
     position: relative;
     background-color:#FF5DA2;
@@ -74,7 +80,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     transition-duration: 0.4s;
-    margin:50px 0px;
+    margin:50px 50px;
     max-width: 100px;
     -webkit-transition-duration: 0.4s; /* Safari */
   }
@@ -84,6 +90,7 @@ body {
     background-color: #c916cf;
   }
   
+  /* efecto boton */
   .button:after {
     content: "";
     display: block;
@@ -112,6 +119,7 @@ body {
     top: 1px;
   }
 
+  /* divs para posicionar elementos */
   .container{
     display: flex;
     justify-content: space-around;
@@ -128,6 +136,7 @@ body {
     font-size: 25px;
   }
 
+  /* fuente, color y demas del accordion */
   button.accordion {
     background-color: #6d6c6d;
     color: #ffffff;
@@ -143,6 +152,7 @@ body {
     transition: 0.4s;
 }
 
+/* accordion activo color */
 button.accordion.active, button.accordion:hover {
     background-color: #9079aa;
 }
@@ -159,6 +169,7 @@ button.accordion.active:after {
     content: "\2796";
 }
 
+/* color del accordion donde va la info */
 div.panel {
     padding: 0 18px;
     background-color: #838383;
