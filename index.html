@@ -1,13 +1,36 @@
 <html>
 <head>
 	<title>Calculadora de Indice de Masa Corporal</title>
+	<meta charset="UTF-8"/>
 	<link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
 <center><h1>Calculadora de IMC: Indice de Masa Corporal</h1></center>
 <!-- FORMULARIO HTML -->
 
+<button class="accordion">¿Qué es el IMC y cómo se usa?</button>
+<div class="panel">
+  <p>El índice de masa corporal (IMC) es un número que se calcula con base en el peso y la estatura de la persona. Para la mayoría de las personas, el IMC es un indicador confiable de la gordura y se usa para identificar las categorías de peso que pueden llevar a problemas de salud.</p>
+  <p>El IMC se usa como una herramienta de detección, pero no diagnostica la grasa corporal ni la salud de un individuo. Para determinar si el exceso de peso es un riesgo para la salud, un proveedor de atención médica necesitará realizar evaluaciones adicionales. Estas evaluaciones pueden incluir la medición del grosor de los pliegues cutáneos, evaluaciones de la alimentación, la actividad física, y los antecedentes familiares.</p>
+</div>
+
+<button class="accordion">¿Cómo interpreto la información del índice de masa corporal?</button>
+<div class="panel">
+  <p>Para adultos de 20 años o más, el IMC se interpreta usando categorías de estado de peso estándar. Estas categorías son iguales para hombres y mujeres de todos los tipos de cuerpo y edades.</p>
+  <p>Las categorías de estado de peso estándar asociadas con los rangos de IMC para adultos se muestran en la siguiente tabla.</p>
+  <p><img src="IMG\pesos.png"></p>
+  <p>El IMC se interpreta de manera diferente para niños y adolescentes, aunque se calcula utilizando la misma fórmula que el IMC para adultos. El IMC de niños y adolescentes debe ser específico para la edad y el sexo porque la cantidad de grasa corporal cambia con la edad y la cantidad de grasa corporal difiere entre niñas y niños. Las tablas de crecimiento del IMC por edad de los CDC tienen en cuenta estas diferencias y muestran visualmente el IMC como una clasificación porcentual. Estos percentiles se determinaron utilizando datos representativos de la población estadounidense de 2 a 19 años de edad que se recopilaron en varias encuestas de 1963-65 a 1988-94.</p>
+</div>
+
+<button class="accordion">Tabla IMC</button>
+<div id="foo" class="panel">
+  <p><img src="IMG\tabla-imc-oms.jpg"></p>
+</div>
+
+
+
 <div class="container">
+	<div class="subcontainer">
 <div class="form__group field">
 	<input type="input" class="form__field" placeholder="Peso" name="peso" id='kg' required />
 	<label for="name" class="form__label">Peso</label>
@@ -16,38 +39,19 @@
 	<input type="input" class="form__field" placeholder="Altura" name="altura" id='m' required />
 	<label for="name" class="form__label">Altura</label>
   </div>
-  
+		</div>
 
 <a class="button" id="calc">Calcular</a>
+<div class="letras">
 <p>IMC: <span id="imc"></span></p>
 <p>Lectura: <span id="lectura"></span></p>
 </div>
+</div>
 
+<div class="disable">
 
-<!-- SCRIPT PARA CALCULAR IMC -->
-<script type="text/javascript">
-	calc = document.getElementById("calc");
-	kg = document.getElementById("kg");
-	m = document.getElementById("m");
-	imc = document.getElementById("imc");
-	lectura = document.getElementById("lectura");
+</div>
 
-	calc.onclick = function(){
-		if(kg.value!="" && m.value!=""){
-			imcx = (kg.value / (m.value* m.value));
-			imc.innerHTML = imcx
-			console.log(imcx);
-
-			if(imcx<18.5){ lectura.innerHTML = "Peso inferior al normal"; }
-			else if(imcx>=18.5 && imcx<=24.9){ lectura.innerHTML = "Peso normal"; }
-			else if(imcx>=25 && imcx<=29.9){ lectura.innerHTML = "Peso superior al normal"; }
-			else if(imcx>30){ lectura.innerHTML = "Obesidad"; }
-
-		}else{
-			alert("Debe ingresar peso y altura.")
-		}
-
-	};
-</script>
-</body>
+		<script src="js/scripts.js"></script>
+	</body>
 </html>
