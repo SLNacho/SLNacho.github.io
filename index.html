@@ -1,13 +1,14 @@
-<html>
-<head>
-	<title>Calculadora de Indice de Masa Corporal</title>
-	<meta charset="UTF-8"/>
-	<link rel="stylesheet" href="CSS/main.css">
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="CSS/main.css">
+		<title>Calculadora de Indice de Masa Corporal</title>
+	</head>
+	<body>
 <center><h1>Índice de Masa Corporal</h1></center>
-<!-- FORMULARIO HTML -->
 
+<!-- accordion -->
 <button class="accordion">¿Qué es el IMC y cómo se usa?</button>
 <div class="panel">
   <p>El índice de masa corporal (IMC) es un número que se calcula con base en el peso y la estatura de la persona. Para la mayoría de las personas, el IMC es un indicador confiable de la gordura y se usa para identificar las categorías de peso que pueden llevar a problemas de salud.</p>
@@ -27,21 +28,22 @@
   <p><img src="IMG\tabla-imc-oms.jpg"></p>
 </div>
 
+<!-- formulario -->
 <div class="letras">
 <center><h2>Calculadora de IMC</h2></center>
 </div>
 
 <div class="container">
 	<div class="subcontainer">
-<div class="form__group field">
+	<div class="form__group field">
 	<input type="input" class="form__field" placeholder="Peso" name="peso" id='kg' required />
 	<label for="name" class="form__label">Peso</label>
-  </div>
+  	</div>
   <div class="form__group field">
 	<input type="input" class="form__field" placeholder="Altura" name="altura" id='m' required />
 	<label for="name" class="form__label">Altura</label>
   </div>
-		</div>
+</div>
 
 <a class="button" id="calc">Calcular</a>
 <div class="letras">
@@ -51,5 +53,6 @@
 </div>
 
 		<script src="JS\scripts.js"></script>
+
 	</body>
 </html>
