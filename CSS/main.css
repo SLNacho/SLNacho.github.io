@@ -124,7 +124,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: left;
-    flex-direction: column
+    flex-direction: column;
+    border: 1px solid blue
 }
 
   .otrocontainer {
@@ -132,11 +133,12 @@ body {
     justify-content: space-around;
     align-items: right;
     flex-direction: column;
-    border: red
+    border: 1px solid red
   }
 
   .supercontainer {
     flex-direction: row;
+    border: 1px solid yellow;
   }
 
   .disable {
@@ -145,6 +147,7 @@ body {
 
   .subcontainer {
     margin-top: 50px;
+    border: 1px solid green;
   }
 
   .letras {
