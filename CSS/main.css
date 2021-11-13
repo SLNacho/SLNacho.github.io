@@ -80,7 +80,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     transition-duration: 0.4s;
-    margin:50px 150px;
+    margin:50px 200px;
     max-width: 100px;
     -webkit-transition-duration: 0.4s; /* Safari */
   }
@@ -183,6 +183,5 @@ div.panel {
 div.panel.show {
     opacity: 1;
     max-height: 800px;
-    font-size: 15px;
 }
 
