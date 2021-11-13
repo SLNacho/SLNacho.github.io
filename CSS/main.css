@@ -127,8 +127,15 @@ body {
     flex-direction: column
 }
 
+  .otrocontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    flex-direction: column
+  }
+
   .supercontainer {
-    flex-direction: column-reverse;
+    flex-direction: row;
   }
 
   .disable {
