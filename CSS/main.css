@@ -80,7 +80,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     transition-duration: 0.4s;
-    margin:50px 50px;
+    margin:50px 150px;
     max-width: 100px;
     -webkit-transition-duration: 0.4s; /* Safari */
   }
