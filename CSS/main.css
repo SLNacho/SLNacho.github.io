@@ -80,7 +80,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     transition-duration: 0.4s;
-    margin:50px 200px;
+    margin:50px 230px;
     max-width: 100px;
     -webkit-transition-duration: 0.4s; /* Safari */
   }
@@ -120,18 +120,26 @@ body {
   }
 
   /* divs para posicionar elementos */
-  .container{
+  .container {
     display: flex;
     justify-content: space-around;
     align-items: left;
     flex-direction: column
 }
 
-  .subcontainer{
+  .supercontainer {
+    flex-direction: column-reverse;
+  }
+
+  .disable {
+    display: none;
+  }
+
+  .subcontainer {
     margin-top: 50px;
   }
 
-  .letras{
+  .letras {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
     color: whitesmoke;
