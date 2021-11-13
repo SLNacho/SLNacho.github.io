@@ -1,5 +1,5 @@
 body {
-    background-color: #5812D3;
+    background-color:rgb(184, 16, 184);
   }
 
 .form__group {
@@ -172,6 +172,3 @@ div.panel.show {
     max-height: 800px;
 }
 
-.disable {
-  display: none
-}
