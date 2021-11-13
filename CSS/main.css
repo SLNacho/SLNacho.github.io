@@ -183,5 +183,6 @@ div.panel {
 div.panel.show {
     opacity: 1;
     max-height: 800px;
+    font-size: 15px;
 }
 
