@@ -134,6 +134,7 @@ body {
   .letras{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
+    color: whitesmoke;
   }
 
   /* fuente, color y demas del accordion */
@@ -159,7 +160,7 @@ button.accordion.active, button.accordion:hover {
 
 button.accordion:after {
     content: '\02795';
-    font-size: 13px;
+    font-size: 20px;
     color: #494949;
     float: right;
     margin-left: 5px;
