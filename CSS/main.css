@@ -125,7 +125,6 @@ body {
     justify-content: space-around;
     align-items: left;
     flex-direction: column;
-    width: 50%;
   }
 
   .supercontainer {
@@ -135,8 +134,7 @@ body {
   .otrocontainer {
     display: flex;
     justify-content: space-around;
-    align-items: right;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 50%;
     border: 1px solid red
   }
