@@ -213,6 +213,13 @@ body {
     color: whitesmoke;
   } 
 
+  .letras3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    color: whitesmoke;
+    margin: 30px;
+  } 
+
   /* fuente, color y demas del accordion */
   button.accordion {
     background-color: #6d6c6d;
