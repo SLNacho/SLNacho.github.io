@@ -223,7 +223,7 @@ body {
   .fondotexto {
     background-color: rgb(44, 44, 44);
     border: 10px solid white;
-    margin: 100px 100px;
+    margin: 180px 100px;
   }
 
   /* fuente, color y demas del accordion */
@@ -274,3 +274,20 @@ div.panel.show {
     max-height: 800px;
   }
 
+/* animacion texto */
+  .aparicion {
+    animation-duration: 3s;
+    animation-name: aparicion;
+  }
+  
+  @keyframes aparicion {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+  
+    to {
+     margin-left:0%;
+     width:100%;
+   }
+  }
