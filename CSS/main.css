@@ -134,7 +134,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     transition-duration: 0.4s;
-    margin:50px 230px;
+    margin:30px 230px;
     max-width: 100px;
     -webkit-transition-duration: 0.4s; /* Safari */
   }
@@ -222,7 +222,7 @@ body {
 
   .fondotexto {
     background-color: rgb(44, 44, 44);
-    border: 10px solid white;
+    border: 10px solid black;
     margin: 180px 100px;
   }
 
