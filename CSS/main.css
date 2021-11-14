@@ -119,6 +119,60 @@ body {
     top: 1px;
   }
 
+/* otro boton */
+  .button1{
+    position: relative;
+    background-color:#FF5DA2;
+    border-radius: 4em;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 0.8em 1.8em;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin:50px 230px;
+    max-width: 100px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  }
+
+  .button1:hover {
+    transition-duration: 0.1s;
+    background-color: #c916cf;
+  }
+  
+  .button1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px rgb(186, 9, 209);
+  }
+  
+  .button1:active:after {
+    box-shadow: 0 0 0 0 rgb(184, 16, 184);
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  .button1:active {
+    top: 1px;
+  }
+
+
   /* divs para posicionar elementos */
   .container {
     display: flex;
