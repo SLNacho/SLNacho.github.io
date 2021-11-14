@@ -134,7 +134,7 @@ body {
   .otrocontainer {
     display: flex;
     justify-content: space-around;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 50%;
     border: 1px solid red
   }
