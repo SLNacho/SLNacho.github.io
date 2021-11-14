@@ -220,6 +220,10 @@ body {
     margin: 60px;
   } 
 
+  .fondotexto {
+    background-color: black;
+  }
+
   /* fuente, color y demas del accordion */
   button.accordion {
     background-color: #6d6c6d;
