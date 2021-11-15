@@ -124,7 +124,7 @@ body {
     position: relative;
     background-color:#fd0505;
     border-radius: 4em;
-    font-size: 16px;
+    font-size: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     padding: 0.8em 1.8em;
@@ -215,7 +215,7 @@ body {
 
   .letras3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
+    font-size: 18px;
     color: whitesmoke;
     margin: 60px;
   } 
@@ -223,7 +223,7 @@ body {
   .fondotexto {
     background-color: rgb(44, 44, 44);
     border: 10px solid black;
-    margin: 100px 100px;
+    margin: 100px 50px;
   }
 
   .fuentetitresultados {
