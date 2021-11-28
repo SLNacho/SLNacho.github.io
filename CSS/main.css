@@ -226,27 +226,6 @@ body {
     margin: 100px 50px;
   }
 
-  .fuentetitresultados {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px; 
-    color: whitesmoke;
-  }
-
-  .fuentesubtitresultados {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px; 
-    color: whitesmoke;
-  }
-
-  .fuentetextresultados {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px; 
-    color: whitesmoke;
-  }
-
-  .fondotextresultados {
-    background-color: rgb(44, 44, 44);
-  }
 
   /* fuente, color y demas del accordion */
   button.accordion {
