@@ -8,6 +8,8 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 
+
+
 calc = document.getElementById("calc");
 	kg = document.getElementById("kg");
 	m = document.getElementById("m");
